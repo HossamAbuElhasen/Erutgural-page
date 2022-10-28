@@ -1,0 +1,414 @@
+body{
+ 
+    padding-top: 80px; /* ضرورى عشان الشريط ميغطيش العناصر اللى تحته */
+    height: 4000px;
+
+}
+
+
+/* نغير لون لينك الاكتف */
+.navbar-inverse .navbar-nav > .active > a
+, .navbar-inverse .navbar-nav >
+ .active > a:hover, .navbar-inverse
+  .navbar-nav > .active > a:focus 
+  {
+   background-color:  #e41b17;
+
+  }
+  
+  /* نغير لون كتابه اللينكات من جوه*/
+  .navbar-inverse 
+  .navbar-nav > li > a 
+  {
+    color: #888;
+    font-size: 17px;
+  }
+  /* نغير لون عنوان الناف*/
+  .navbar-inverse .navbar-brand {
+    color: #888;
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-inverse .navbar-brand span {
+    color: #e41b17;
+    
+}
+
+/*تغير لون القائمه بتاعت اللينك الاخير وعمل خط احمر فى بدايه القائمه*/
+.dropdown-menu
+{
+background-color: #333;
+border-top: 3px solid #e41b17  ;
+min-width: 200px; /* فى حاله زودنا حجم العنصر*/
+left: 0;
+right: auto;
+}
+
+/* نغير لون عناصر القائمه*/
+.dropdown-menu > li > a
+{
+color: #fff;
+}
+/* نغير لون عنوان الناف*/
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+  background-color: #e41b17;
+  color: #fff;
+  padding-left: 25px;
+ transition:padding 0.5s ease ;
+ /* نخليه يتحرك شويه بعد مانجى عليه بالسهم   */
+  
+} 
+
+/* نغير حجم الينكات  */
+.navbar-nav > li > a
+ {
+ padding-top: 25px ;
+ padding-bottom: 25px ;
+}
+
+.navbar{
+    min-height: 70px;
+}
+
+/* نغير لون الخط الفاصل*/
+.dropdown-menu .divider
+{
+ background-color: #871818;   
+}
+/* نغير المسافه بين كل عنصر والتانى*/
+.dropdown-menu > li > a
+{
+padding: 6px 20px;
+}
+/* فى حاله الصفحه صغيره هيظهر زر اللينكات ده فانغير مكانه  */
+.navbar.toggle
+{
+margin-top: 18px;
+}
+.navbar-nav {
+    padding-right: 50px;
+}
+.co
+{
+   
+    padding-left: 100px;
+    width: 1250px;
+}
+.osm
+{
+    padding-left: 250px;
+    width: 1100px;
+}
+.pr
+{
+    padding-left: 250px;
+    width: 1100px;
+}
+.carousel-caption
+{
+    
+
+background-color: #00000040;
+}
+
+.carousel-indicators li /* تغير شكل الدايره الصغيره فى الاسليد*/
+{
+height: 13px;
+width: 13px;
+
+}
+.carousel-indicators .active
+{
+height: 13px;
+width: 13px;
+background:#f36 ;
+}
+.ha{
+padding-right: 5%;
+}
+.hali{
+    font-weight:bold;
+    font-size: 30px;
+    font-style: italic;
+    color: #888
+}
+.back{
+    background-color: beige;
+}
+span{
+color: #f36;
+}
+.about
+{
+padding-left: 150px;
+padding-right: 150px;
+padding-top: 30px;
+
+}
+.about .lead{
+    color: #888;
+font-size: 20px;
+margin-top: 15px;
+}
+.os{
+  
+    margin-bottom: 300px;
+    height: 150px;
+    padding: 10px;
+   
+    
+}
+ 
+.ser{
+   color: #888;
+   padding-left: 20px;
+   font-weight: bold;
+}
+.cont .btn{
+    padding: 20px 85px;
+    margin-right: 55px;
+}
+img{
+    padding-bottom: 10px;
+}
+.cont .btn-danger {
+    margin-left: 3px;
+    margin-top: 3px;
+    padding: 20px 85px;
+}
+.cont{
+    
+   padding-left: 150px;
+    padding-bottom: 25px;
+
+    background-color:#eee;
+}
+.testimonlas
+{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.testimonlas h1
+{
+font-weight: bold;
+margin-bottom: 20px;
+}
+.testimonlas .lead
+{
+    line-height: 2em;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.testimonlas span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f36;
+}
+.testimonlas .carousel-inner{
+min-height:160px ;
+}
+.testimonlas .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonlas .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    margin: 8px;
+    transition:all 0.5s ease ;
+}
+.testimonlas .carousel-indicators li.active
+{
+    opacity: 1;
+
+}
+.testimonlas .carousel-indicators li img
+{
+max-width: 100%;
+}
+.testimonlas .carousel-indicators li .active{
+    background: #f36;
+}
+
+
+
+
+
+
+.price_table 
+{ 
+background: #eee;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.price_table h1
+{ 
+margin-bottom: 40px;
+}
+
+.price_table .price-box
+{
+    background: #fff;
+    padding: 10px;
+    border:1px solid #ddd ;
+}
+.price_table .price-box h2 
+{
+    margin: 5px 0 15px;
+}
+
+.price_table .price-box p
+{
+    font-size: 20px; 
+    font-weight: bold;
+    color: #666;
+}
+
+.price_table .price-box ul
+{
+    line-height: 2em;
+    font-size: 15px;
+}
+.price_table .btn{
+    margin: 0;
+}
+.price_table .price-box:hover{
+    transform:scale(1.1,1.1);
+}
+
+
+
+
+
+
+.our-actors {
+    
+    background:url("../umg/ka.jpg")no-repeat fixed;
+    background-size: cover;
+    min-height:400px;
+   
+}
+.our-actors h1
+{
+    margin-bottom:60px ;
+}
+.our-actors .team{
+   background: rgb(2 2 2 / 60%);
+   color: #fff;
+   min-height: 500px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.our-actors .person{
+    margin-bottom:40px ;
+}
+
+.our-actors img:hover
+{
+    transform:scale(1.1,1.1);
+}
+
+
+
+
+.sub{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background:#eee ;
+}
+
+
+.sub h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sub p{
+    margin-bottom: 30px;
+}
+.sub .form-control
+{
+    border-radius: 0;
+    margin-right:5px ;
+    width: 300px;
+}
+.sub .button
+{
+    border-radius: 0;
+}
+
+
+
+
+
+
+.contact
+{
+    background:url("../umg/conta.jpg")no-repeat fixed;
+    background-size: cover;
+    min-height:500px;
+   
+}
+
+.contact .fields
+{
+background: rgb(9 9 9 / 60%);
+min-height: 500px;
+color: #ddd;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+.contact p
+{
+margin-bottom: 40px;
+}
+.contact textarea
+{
+    height:108px ;
+}
+
+.contact input[type="text"],
+.contact textarea
+{
+    background: rgb(82 78 78 / 60%);
+    color: #fff;
+    border: none;
+}
+
+
+
+
+
+.container
+{
+padding-bottom: 50px;
+}
+.features
+{
+background: #eee;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.ic i{
+    padding-left: 30px;
+ 
+}
+
+
+
+
+
